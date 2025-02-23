@@ -3172,3 +3172,9 @@ java.lang.IllegalArgumentException: Can't find block displaydelight:plated_cake_
 [23Feb2025 02:55:03.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Set the time to 1000]
 [23Feb2025 02:57:33.646] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [23Feb2025 02:57:33.665] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Feb2025 03:02:33.601] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Feb2025 03:02:33.617] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Feb2025 03:07:33.641] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Feb2025 03:07:33.648] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Feb2025 03:08:40.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
+[23Feb2025 03:11:03.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
