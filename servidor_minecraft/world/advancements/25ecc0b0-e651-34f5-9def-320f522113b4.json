@@ -5224,6 +5224,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-02-23 02:39:42 +0000"
+    },
+    "done": true
+  },
   "mysticsbiomes:recipes/food/orange_frosted_cake": {
     "criteria": {
       "has_egg": "2025-02-23 02:31:30 +0000"
@@ -5257,6 +5263,12 @@
   "refurbished_furniture:recipes/misc/slicing/white_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2025-02-23 02:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-02-23 02:39:42 +0000"
     },
     "done": true
   },
