@@ -241,3 +241,9 @@ java.lang.IllegalArgumentException: Can't find block displaydelight:plated_cake_
 [23Feb2025 02:55:03.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Set the time to 1000]
 [23Feb2025 03:08:40.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
 [23Feb2025 03:11:03.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[23Feb2025 03:11:53.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -395.500000, 0.500000, -574.500000]
+[23Feb2025 03:13:22.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[23Feb2025 03:13:54.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
+[23Feb2025 03:14:33.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[23Feb2025 03:15:04.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
+[23Feb2025 03:18:11.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=324, y=64, z=1483} BlockPos{x=325, y=63, z=1484}
