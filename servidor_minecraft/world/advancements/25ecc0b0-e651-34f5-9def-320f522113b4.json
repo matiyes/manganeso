@@ -1432,6 +1432,7 @@
       "apple": "2025-02-01 19:06:14 +0000",
       "potato": "2025-02-12 01:45:38 +0000",
       "bread": "2025-01-31 04:22:59 +0000",
+      "cooked_rabbit": "2025-02-23 02:28:43 +0000",
       "carrot": "2025-01-31 03:21:17 +0000"
     },
     "done": false
@@ -5220,6 +5221,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2025-02-22 22:14:01 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/food/orange_frosted_cake": {
+    "criteria": {
+      "has_egg": "2025-02-23 02:31:30 +0000"
     },
     "done": true
   },
