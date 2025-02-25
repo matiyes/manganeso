@@ -1,64 +1,66 @@
-[24Feb2025 22:44:06.509] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[24Feb2025 22:44:06.517] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[24Feb2025 22:44:11.357] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[24Feb2025 22:44:11.498] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/manganeso/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[24Feb2025 22:44:12.730] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/manganeso/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[24Feb2025 22:44:12.731] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/manganeso/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Feb2025 22:44:12.733] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/manganeso/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Feb2025 22:44:12.735] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/manganeso/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[24Feb2025 22:44:13.096] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[24Feb2025 22:44:20.080] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[24Feb2025 22:44:20.109] [main/ERROR] [mixin/]: Mixin config mixins.recrafted_creatures.json does not specify "minVersion" property
-[24Feb2025 22:44:20.129] [main/ERROR] [mixin/]: Mixin config mixins.duclib.json does not specify "minVersion" property
-[24Feb2025 22:44:20.405] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[24Feb2025 22:44:20.994] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
-[24Feb2025 22:44:20.998] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[24Feb2025 22:44:21.062] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[24Feb2025 22:44:21.384] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 92 options available, 0 override(s) found
-[24Feb2025 22:44:21.549] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
-[24Feb2025 22:44:21.582] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[24Feb2025 22:44:27.988] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[24Feb2025 22:44:29.620] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (30.43 s after launch)
-[24Feb2025 22:44:30.187] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[24Feb2025 22:44:30.188] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[24Feb2025 22:44:30.779] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[24Feb2025 22:44:30.781] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[24Feb2025 22:44:34.797] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 5170 milliseconds
-[24Feb2025 22:44:42.026] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zpj000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[24Feb2025 22:44:47.223] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[24Feb2025 22:44:47.224] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[24Feb2025 22:44:49.395] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[24Feb2025 22:44:54.850] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
-[24Feb2025 22:44:54.851] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
-[24Feb2025 22:44:54.853] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
-[24Feb2025 22:44:54.853] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
-[24Feb2025 22:44:55.277] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[24Feb2025 22:44:55.278] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
-[24Feb2025 22:44:56.776] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.animal.sniffer.Sniffer from class com.mysticsbiomes.common.entity.animal.SeaOtter
-[24Feb2025 22:44:57.046] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[24Feb2025 22:44:57.539] [modloading-worker-0/INFO] [com.jkvin114.displaydelight.DisplayDelight/]: HELLO FROM COMMON SETUP
-[24Feb2025 22:44:57.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lukis_grandcapitals] Starting version check at https://api.modrinth.com/updates/8Lw09aLb/forge_updates.json
-[24Feb2025 22:44:57.755] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
-[24Feb2025 22:44:58.019] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[24Feb2025 22:44:58.021] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[24Feb2025 22:44:58.023] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[24Feb2025 22:44:58.028] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[24Feb2025 22:44:58.050] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[24Feb2025 22:44:58.050] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[24Feb2025 22:44:58.051] [main/INFO] [terrablender/]: Registered region mysticsbiomes:overworld_provider to index 1 for type OVERWORLD
-[24Feb2025 22:44:58.106] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[24Feb2025 22:44:58.106] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[24Feb2025 22:44:58.168] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[24Feb2025 22:44:58.282] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[24Feb2025 22:44:58.307] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[24Feb2025 22:44:58.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lukis_grandcapitals] Found status: OUTDATED Current: 1.0 Target: 1.1.1+mod
-[24Feb2025 22:44:58.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[24Feb2025 22:44:58.485] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.33
-[24Feb2025 22:44:58.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
-[24Feb2025 22:44:58.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.0.0 Target: null
-[24Feb2025 22:44:58.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[24Feb2025 22:44:58.682] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[24Feb2025 22:44:58.708] [modloading-worker-0/INFO] [de.mennomax.astikorcarts.AstikorCarts/]: Automatic pull animal configuration:
+[25Feb2025 01:23:48.494] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[25Feb2025 01:23:48.502] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[25Feb2025 01:23:52.082] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[25Feb2025 01:23:52.608] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/manganeso/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[25Feb2025 01:23:53.917] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/manganeso/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[25Feb2025 01:23:53.919] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/manganeso/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Feb2025 01:23:53.921] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/manganeso/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Feb2025 01:23:53.922] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/manganeso/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[25Feb2025 01:23:54.723] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[25Feb2025 01:24:00.521] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Feb2025 01:24:00.525] [main/ERROR] [mixin/]: Mixin config mixins.recrafted_creatures.json does not specify "minVersion" property
+[25Feb2025 01:24:00.531] [main/ERROR] [mixin/]: Mixin config mixins.duclib.json does not specify "minVersion" property
+[25Feb2025 01:24:00.896] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Feb2025 01:24:01.883] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
+[25Feb2025 01:24:01.890] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[25Feb2025 01:24:01.929] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[25Feb2025 01:24:02.212] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 92 options available, 0 override(s) found
+[25Feb2025 01:24:02.552] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[25Feb2025 01:24:02.590] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Feb2025 01:24:08.663] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[25Feb2025 01:24:10.428] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (29.73 s after launch)
+[25Feb2025 01:24:10.880] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Feb2025 01:24:10.901] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Feb2025 01:24:11.468] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[25Feb2025 01:24:11.469] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[25Feb2025 01:24:15.162] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 4728 milliseconds
+[25Feb2025 01:24:20.705] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zpj000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[25Feb2025 01:24:24.427] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[25Feb2025 01:24:24.428] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[25Feb2025 01:24:26.095] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Feb2025 01:24:33.904] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[25Feb2025 01:24:33.904] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[25Feb2025 01:24:33.907] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[25Feb2025 01:24:33.907] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[25Feb2025 01:24:34.621] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[25Feb2025 01:24:34.622] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[25Feb2025 01:24:36.544] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.animal.sniffer.Sniffer from class com.mysticsbiomes.common.entity.animal.SeaOtter
+[25Feb2025 01:24:37.639] [modloading-worker-0/INFO] [com.jkvin114.displaydelight.DisplayDelight/]: HELLO FROM COMMON SETUP
+[25Feb2025 01:24:37.718] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[25Feb2025 01:24:38.046] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[25Feb2025 01:24:38.385] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lukis_grandcapitals] Starting version check at https://api.modrinth.com/updates/8Lw09aLb/forge_updates.json
+[25Feb2025 01:24:39.120] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[25Feb2025 01:24:39.120] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[25Feb2025 01:24:39.121] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[25Feb2025 01:24:39.123] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[25Feb2025 01:24:39.137] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[25Feb2025 01:24:39.137] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[25Feb2025 01:24:39.138] [main/INFO] [terrablender/]: Registered region mysticsbiomes:overworld_provider to index 1 for type OVERWORLD
+[25Feb2025 01:24:39.297] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[25Feb2025 01:24:39.303] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[25Feb2025 01:24:39.458] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[25Feb2025 01:24:39.530] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_lukis_grandcapitals] Found status: OUTDATED Current: 1.0 Target: 1.1.1+mod
+[25Feb2025 01:24:39.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Feb2025 01:24:39.546] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[25Feb2025 01:24:39.570] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[25Feb2025 01:24:39.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.33
+[25Feb2025 01:24:39.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[25Feb2025 01:24:39.758] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.0.0 Target: null
+[25Feb2025 01:24:39.758] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[25Feb2025 01:24:40.023] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[25Feb2025 01:24:40.045] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[25Feb2025 01:24:40.052] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[25Feb2025 01:24:40.066] [modloading-worker-0/INFO] [de.mennomax.astikorcarts.AstikorCarts/]: Automatic pull animal configuration:
 pull_animals = [
     "minecraft:camel",
     "minecraft:donkey",
@@ -71,28 +73,26 @@ pull_animals = [
     "recrafted_creatures:zebra",
     "vinery:mule"
   ]
-[24Feb2025 22:44:58.724] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[24Feb2025 22:44:58.729] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[24Feb2025 22:44:58.733] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[24Feb2025 22:44:59.182] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.21 Target: 1.20.1-1.0.23
-[24Feb2025 22:44:59.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
-[24Feb2025 22:44:59.589] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[24Feb2025 22:44:59.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 3.0.0-beta.9 Target: 3.0.0-beta.9
-[24Feb2025 22:44:59.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
-[24Feb2025 22:44:59.796] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
-[24Feb2025 22:44:59.796] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[24Feb2025 22:45:00.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA_OUTDATED Current: 1.0.6 Target: 1.0.9
-[24Feb2025 22:45:00.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[24Feb2025 22:45:00.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.11 Target: 0.7.12
-[24Feb2025 22:45:00.653] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/manganeso/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/assets/.mcassetsroot' uses unexpected schema
-[24Feb2025 22:45:00.653] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/manganeso/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/data/.mcassetsroot' uses unexpected schema
-[24Feb2025 22:45:04.509] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[24Feb2025 22:45:04.716] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag nethersdelight:tools/machetes as it is missing following references: nethersdelight:iron_machete (from butcher-2.9-forge-1.20.1.jar), 
+[25Feb2025 01:24:40.069] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[25Feb2025 01:24:40.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.21 Target: 1.20.1-1.0.23
+[25Feb2025 01:24:40.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[25Feb2025 01:24:41.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 3.0.0-beta.9 Target: 3.0.0-beta.9
+[25Feb2025 01:24:41.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[25Feb2025 01:24:41.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[25Feb2025 01:24:41.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[25Feb2025 01:24:41.232] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Feb2025 01:24:41.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA_OUTDATED Current: 1.0.6 Target: 1.0.9
+[25Feb2025 01:24:41.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[25Feb2025 01:24:41.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.11 Target: 0.7.12
+[25Feb2025 01:24:42.920] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/manganeso/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/assets/.mcassetsroot' uses unexpected schema
+[25Feb2025 01:24:42.921] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/manganeso/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/data/.mcassetsroot' uses unexpected schema
+[25Feb2025 01:24:49.395] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[25Feb2025 01:24:49.863] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag nethersdelight:tools/machetes as it is missing following references: nethersdelight:iron_machete (from butcher-2.9-forge-1.20.1.jar), 
 	nethersdelight:golden_machete (from butcher-2.9-forge-1.20.1.jar), 
 	nethersdelight:diamond_machete (from butcher-2.9-forge-1.20.1.jar), 
 	nethersdelight:netherite_machete (from butcher-2.9-forge-1.20.1.jar)
-[24Feb2025 22:45:04.717] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag nethersdelight:tools/hunting_tools as it is missing following references: #nethersdelight:tools/machetes (from butcher-2.9-forge-1.20.1.jar)
-[24Feb2025 22:45:05.391] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:displaydelight:blocks/plated_cake_slice
+[25Feb2025 01:24:49.864] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag nethersdelight:tools/hunting_tools as it is missing following references: #nethersdelight:tools/machetes (from butcher-2.9-forge-1.20.1.jar)
+[25Feb2025 01:24:50.419] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:displaydelight:blocks/plated_cake_slice
 java.lang.IllegalArgumentException: Can't find block displaydelight:plated_cake_slice
 	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -164,94 +164,214 @@ java.lang.IllegalArgumentException: Can't find block displaydelight:plated_cake_
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[24Feb2025 22:45:06.199] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifeknapping: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
-[24Feb2025 22:45:06.212] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plierknapping: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
-[24Feb2025 22:45:06.323] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plierjawrecipe: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
-[24Feb2025 22:45:06.335] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleaverblade: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
-[24Feb2025 22:45:06.335] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifecrafting: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
-[24Feb2025 22:45:06.346] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:fireskinningknifemold: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
-[24Feb2025 22:45:06.352] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plieranviltfc: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
-[24Feb2025 22:45:06.358] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick: com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
-[24Feb2025 22:45:06.393] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifebladerecipe: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
-[24Feb2025 22:45:06.460] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:crushedflowersrecipe: com.google.gson.JsonSyntaxException: Unknown item 'butcher:pestleandmortar'
-[24Feb2025 22:45:06.483] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:ironcleaveranviltfc: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
-[24Feb2025 22:45:06.505] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:firecleavermold: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
-[24Feb2025 22:45:06.506] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:pliercrafting: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
-[24Feb2025 22:45:06.507] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifeanviltfc: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
-[24Feb2025 22:45:06.520] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:firepliermold: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
-[24Feb2025 22:45:06.521] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleavercrafting: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
-[24Feb2025 22:45:06.522] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:butcheryjar: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:glassworking'
-[24Feb2025 22:45:06.526] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleaverknapping: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
-[24Feb2025 22:45:06.531] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
-[24Feb2025 22:45:06.883] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2824 advancements
-[24Feb2025 22:45:06.927] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[24Feb2025 22:45:06.934] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[24Feb2025 22:45:06.950] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
-[24Feb2025 22:45:08.302] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[24Feb2025 22:45:08.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[24Feb2025 22:45:08.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[24Feb2025 22:45:08.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[24Feb2025 22:45:08.493] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[24Feb2025 22:45:08.553] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[24Feb2025 22:45:08.651] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[24Feb2025 22:45:08.652] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[24Feb2025 22:45:08.653] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[24Feb2025 22:45:08.654] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[24Feb2025 22:45:09.084] [Server thread/INFO] [Framework/]: Loading server configs...
-[24Feb2025 22:45:09.443] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[24Feb2025 22:45:09.445] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[24Feb2025 22:45:09.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[24Feb2025 22:45:10.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[24Feb2025 22:45:10.250] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
-[24Feb2025 22:45:13.522] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:13.523] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:13.524] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:13.525] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:13.525] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:13.526] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:13.527] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:13.751] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:14.246] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[24Feb2025 22:45:14.816] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4570 ms
-[24Feb2025 22:45:14.819] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.148s)! For help, type "help"
-[24Feb2025 22:45:14.949] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[24Feb2025 22:45:14.950] [Server thread/INFO] [com.jkvin114.displaydelight.DisplayDelight/]: HELLO from server starting
-[24Feb2025 22:45:14.954] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[24Feb2025 22:45:14.955] [Server thread/WARN] [ModernFix/]: Dedicated server took 75.778 seconds to load
-[24Feb2025 22:46:06.001] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: matiyes[/127.128.205.37:42243] logged in with entity id 196 at (316.06474928839964, 64.0, 1505.4860618419964)
-[24Feb2025 22:46:06.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes joined the game
-[24Feb2025 22:46:06.273] [Server thread/INFO] [Jade/]: Syncing config to matiyes (25ecc0b0-e651-34f5-9def-320f522113b4)
-[24Feb2025 23:10:31.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Set own game mode to Survival Mode]
-[24Feb2025 23:15:33.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
-[24Feb2025 23:16:15.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
-[24Feb2025 23:17:21.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
-[24Feb2025 23:17:41.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
-[24Feb2025 23:19:01.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
-[24Feb2025 23:19:23.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
-[24Feb2025 23:20:35.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
-[24Feb2025 23:21:34.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
-[24Feb2025 23:21:38.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
-[24Feb2025 23:28:55.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
-[24Feb2025 23:32:22.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
-[24Feb2025 23:33:16.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
-[24Feb2025 23:35:33.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
-[24Feb2025 23:36:09.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes has made the advancement [Dinner is Coming]
-[24Feb2025 23:36:43.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
-[24Feb2025 23:36:51.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
-[24Feb2025 23:44:40.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
-[24Feb2025 23:45:30.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
-[24Feb2025 23:52:43.618] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: matiyes lost connection: Disconnected
-[24Feb2025 23:52:43.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes left the game
-[24Feb2025 23:52:53.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[24Feb2025 23:52:53.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[24Feb2025 23:52:53.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[24Feb2025 23:52:53.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[24Feb2025 23:52:53.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[24Feb2025 23:52:53.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[24Feb2025 23:52:53.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[24Feb2025 23:52:53.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[24Feb2025 23:52:53.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[24Feb2025 23:52:53.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[24Feb2025 23:52:53.922] [Server thread/INFO] [Framework/]: Unloading server configs...
-[24Feb2025 23:52:53.923] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
-[24Feb2025 23:52:53.924] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
+[25Feb2025 01:24:51.135] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifeknapping: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
+[25Feb2025 01:24:51.151] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plierknapping: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
+[25Feb2025 01:24:51.268] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plierjawrecipe: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
+[25Feb2025 01:24:51.274] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleaverblade: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
+[25Feb2025 01:24:51.275] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifecrafting: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
+[25Feb2025 01:24:51.281] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:fireskinningknifemold: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
+[25Feb2025 01:24:51.286] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:plieranviltfc: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
+[25Feb2025 01:24:51.290] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick: com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
+[25Feb2025 01:24:51.318] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifebladerecipe: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:casting'
+[25Feb2025 01:24:51.352] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:crushedflowersrecipe: com.google.gson.JsonSyntaxException: Unknown item 'butcher:pestleandmortar'
+[25Feb2025 01:24:51.374] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:ironcleaveranviltfc: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
+[25Feb2025 01:24:51.395] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:firecleavermold: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
+[25Feb2025 01:24:51.396] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:pliercrafting: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
+[25Feb2025 01:24:51.397] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:skinningknifeanviltfc: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:anvil'
+[25Feb2025 01:24:51.414] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:firepliermold: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:heating'
+[25Feb2025 01:24:51.417] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleavercrafting: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:advanced_shaped_crafting'
+[25Feb2025 01:24:51.418] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:butcheryjar: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:glassworking'
+[25Feb2025 01:24:51.423] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butcher:cleaverknapping: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfc:knapping'
+[25Feb2025 01:24:51.429] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[25Feb2025 01:24:51.670] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2824 advancements
+[25Feb2025 01:24:51.692] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[25Feb2025 01:24:51.697] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[25Feb2025 01:24:51.709] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[25Feb2025 01:24:53.931] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[25Feb2025 01:24:53.932] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Feb2025 01:24:53.932] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Feb2025 01:24:53.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Feb2025 01:24:54.190] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Feb2025 01:24:54.224] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Feb2025 01:24:54.320] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Feb2025 01:24:54.321] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Feb2025 01:24:54.321] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Feb2025 01:24:54.321] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Feb2025 01:24:54.917] [Server thread/INFO] [Framework/]: Loading server configs...
+[25Feb2025 01:24:55.258] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[25Feb2025 01:24:55.259] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[25Feb2025 01:24:55.259] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Feb2025 01:24:56.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Feb2025 01:24:56.023] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[25Feb2025 01:24:58.829] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 01:24:58.831] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 01:24:58.832] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 01:24:58.832] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 01:24:58.833] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 01:24:58.834] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 01:24:59.020] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Feb2025 01:24:59.921] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3903 ms
+[25Feb2025 01:24:59.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.574s)! For help, type "help"
+[25Feb2025 01:24:59.995] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Feb2025 01:24:59.995] [Server thread/INFO] [com.jkvin114.displaydelight.DisplayDelight/]: HELLO from server starting
+[25Feb2025 01:24:59.999] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[25Feb2025 01:25:00.001] [Server thread/WARN] [ModernFix/]: Dedicated server took 79.317 seconds to load
+[25Feb2025 01:25:17.088] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: matiyes[/127.128.205.37:41939] logged in with entity id 195 at (353.4213478150235, 68.0, 1517.3138016025391)
+[25Feb2025 01:25:17.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes joined the game
+[25Feb2025 01:25:17.366] [Server thread/INFO] [Jade/]: Syncing config to matiyes (25ecc0b0-e651-34f5-9def-320f522113b4)
+[25Feb2025 01:25:20.475] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[25Feb2025 01:26:46.727] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Superlochi[/127.181.96.131:44165] logged in with entity id 1034 at (342.3355746293709, 72.0, 1713.9885561174005)
+[25Feb2025 01:26:46.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi joined the game
+[25Feb2025 01:26:46.852] [Server thread/INFO] [Jade/]: Syncing config to Superlochi (a6c5c46d-2438-3117-870c-aee9807939bc)
+[25Feb2025 01:27:58.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
+[25Feb2025 01:28:35.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to 328.500000, 65.500000, 1510.500000]
+[25Feb2025 01:34:12.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[25Feb2025 01:34:20.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 01:38:02.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi has made the advancement [Not Today, Thank You]
+[25Feb2025 01:39:54.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 01:48:34.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[25Feb2025 01:48:42.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to matiyes]
+[25Feb2025 01:48:59.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -62.500000, 66.500000, -355.500000]
+[25Feb2025 01:49:11.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to matiyes]
+[25Feb2025 01:50:15.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -962.500000, 73.500000, -368.500000]
+[25Feb2025 01:50:18.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to matiyes]
+[25Feb2025 01:50:48.334] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[25Feb2025 01:51:58.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 01:51:59.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to 328.500000, 65.500000, 1510.500000]
+[25Feb2025 01:55:44.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to -27.500000, 70.500000, -1.500000]
+[25Feb2025 01:59:28.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes has made the advancement [Splash and Sprinkle]
+[25Feb2025 02:01:57.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to 328.500000, 65.500000, 1510.500000]
+[25Feb2025 02:12:17.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to -77.500000, 67.500000, -359.500000]
+[25Feb2025 02:12:46.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to 328.500000, 65.500000, 1510.500000]
+[25Feb2025 02:16:44.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[25Feb2025 02:16:51.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[25Feb2025 02:17:57.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 02:22:21.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[25Feb2025 02:22:56.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 02:23:47.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to -29.500000, 70.500000, -0.500000]
+[25Feb2025 02:23:55.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 02:26:27.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 345.500000, 68.500000, 1527.500000]
+[25Feb2025 02:35:30.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Set the time to 1000]
+[25Feb2025 02:45:47.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> te quiero
+[25Feb2025 02:46:02.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matiyes> Y yo a ti mi vida hermosa
+[25Feb2025 02:46:05.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matiyes> te amo
+[25Feb2025 02:58:43.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to -27.500000, 70.500000, -1.500000]
+[25Feb2025 02:59:49.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to 328.500000, 65.500000, 1510.500000]
+[25Feb2025 03:18:03.597] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:swamp took 1553 ms
+[25Feb2025 03:19:23.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 03:29:14.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 03:32:43.085] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id legendarycreatures:wisp
+[25Feb2025 03:32:49.971] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[25Feb2025 03:35:49.787] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 03:36:08.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to Superlochi]
+[25Feb2025 03:37:31.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Set the time to 1000]
+[25Feb2025 03:37:31.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Set the time to 1000]
+[25Feb2025 03:46:34.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Set the time to 1000]
+[25Feb2025 03:48:45.352] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 03:48:45.353] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'obscure_api:regeneration'
+[25Feb2025 03:48:45.353] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 03:48:45.353] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'obscure_api:regeneration'
+[25Feb2025 03:48:45.354] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 03:50:30.108] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'obscure_api:regeneration'
+[25Feb2025 03:50:30.109] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 03:50:30.109] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'obscure_api:regeneration'
+[25Feb2025 03:50:30.109] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 03:50:30.109] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'obscure_api:regeneration'
+[25Feb2025 03:50:30.110] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 03:54:35.378] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[25Feb2025 03:54:35.381] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_nugget
+[25Feb2025 03:54:35.381] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[25Feb2025 03:54:35.381] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_nugget
+[25Feb2025 03:54:35.382] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction/]: Couldn't set damage of loot item 1 iron_ingot
+[25Feb2025 03:54:59.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to 328.500000, 65.500000, 1510.500000]
+[25Feb2025 03:55:27.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to -147.500000, 117.500000, 866.500000]
+[25Feb2025 03:55:31.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi has made the advancement [Light as a Rabbit]
+[25Feb2025 03:56:00.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Set the time to 1000]
+[25Feb2025 03:56:18.194] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[25Feb2025 03:56:18.195] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[25Feb2025 03:56:18.195] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[25Feb2025 03:56:18.196] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[25Feb2025 03:56:18.196] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[25Feb2025 03:56:20.820] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/42163, l='ServerLevel[world]', x=903.37, y=62.15, z=1003.23] died, message: 'Nitwit was slain by Crocodile'
+[25Feb2025 03:57:49.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to Superlochi]
+[25Feb2025 04:00:27.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to Superlochi]
+[25Feb2025 04:03:06.816] [Worker-Main-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:03:29.764] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[25Feb2025 04:03:44.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes has completed the challenge [The End Of The Origin]
+[25Feb2025 04:03:44.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi has completed the challenge [The End Of The Origin]
+[25Feb2025 04:03:49.000] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4247ms or 84 ticks behind
+[25Feb2025 04:04:24.017] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: matiyes lost connection: Timed out
+[25Feb2025 04:04:24.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes left the game
+[25Feb2025 04:04:24.063] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Superlochi lost connection: Timed out
+[25Feb2025 04:04:24.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi left the game
+[25Feb2025 04:04:37.741] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Superlochi[/127.181.96.131:54361] logged in with entity id 56160 at (-592.6999999880791, 63.41999998688698, 1233.699999988079)
+[25Feb2025 04:04:37.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi joined the game
+[25Feb2025 04:04:37.804] [Server thread/INFO] [Jade/]: Syncing config to Superlochi (a6c5c46d-2438-3117-870c-aee9807939bc)
+[25Feb2025 04:04:44.984] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: matiyes[/127.128.205.37:37225] logged in with entity id 56555 at (-477.4297219183849, 70.0, 1241.770931440319)
+[25Feb2025 04:04:45.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes joined the game
+[25Feb2025 04:04:45.105] [Server thread/INFO] [Jade/]: Syncing config to matiyes (25ecc0b0-e651-34f5-9def-320f522113b4)
+[25Feb2025 04:05:28.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Set the time to 1000]
+[25Feb2025 04:05:55.392] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[25Feb2025 04:06:11.492] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[25Feb2025 04:06:56.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi has made the advancement [Wild Harvest]
+[25Feb2025 04:08:12.878] [Worker-Main-90/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[25Feb2025 04:09:42.541] [Worker-Main-90/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[25Feb2025 04:10:45.201] [Worker-Main-90/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[25Feb2025 04:10:50.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 311.500000, 64.500000, 1504.500000]
+[25Feb2025 04:11:45.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi has made the advancement [Plan "Boar"]
+[25Feb2025 04:15:14.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Set the time to 1000]
+[25Feb2025 04:17:28.538] [Worker-Main-101/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[25Feb2025 04:18:21.248] [Worker-Main-101/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[25Feb2025 04:18:36.548] [Worker-Main-101/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: revampedvillages:outpost/points
+[25Feb2025 04:19:13.332] [Worker-Main-101/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[25Feb2025 04:22:10.752] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:10.753] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:10.753] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.252] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.255] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.255] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.256] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.256] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.257] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.258] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.961] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.966] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:blood_spell_power'
+[25Feb2025 04:22:11.966] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'irons_spellbooks:max_mana'
+[25Feb2025 04:22:11.966] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:22:11.967] [Worker-Main-101/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'caelus:fall_flying'
+[25Feb2025 04:23:55.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Superlochi: Teleported Superlochi to 328.500000, 65.500000, 1510.500000]
+[25Feb2025 04:24:20.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes has made the advancement [Wild Harvest]
+[25Feb2025 04:29:31.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> Fue un buen juego amor
+[25Feb2025 04:29:48.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matiyes> sep, lo fue
+[25Feb2025 04:29:52.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> Te amo
+[25Feb2025 04:30:00.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> ah mira
+[25Feb2025 04:30:03.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matiyes> tambien te amo mi vida
+[25Feb2025 04:30:08.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> las otras cebollas
+[25Feb2025 04:30:23.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> son diferentes
+[25Feb2025 04:30:29.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matiyes> sep
+[25Feb2025 04:30:31.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> solo una, la otra ya la teniamos
+[25Feb2025 04:30:40.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matiyes> tambien hay diferentes lechugas
+[25Feb2025 04:30:57.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> No sabia
+[25Feb2025 04:31:17.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> Bueno, cerremos
+[25Feb2025 04:31:17.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matiyes> tambien plante fresas
+[25Feb2025 04:31:22.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> siiiiii
+[25Feb2025 04:31:28.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> mañana jugamos de nuevo
+[25Feb2025 04:31:34.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <matiyes> sip
+[25Feb2025 04:31:37.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Superlochi> en la tarde o en la noche
+[25Feb2025 04:31:52.561] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Superlochi lost connection: Disconnected
+[25Feb2025 04:31:52.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Superlochi left the game
+[25Feb2025 04:31:53.908] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: matiyes lost connection: Disconnected
+[25Feb2025 04:31:53.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes left the game
+[25Feb2025 04:32:05.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Feb2025 04:32:05.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Feb2025 04:32:05.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Feb2025 04:32:05.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Feb2025 04:32:05.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Feb2025 04:32:05.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Feb2025 04:32:06.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Feb2025 04:32:06.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Feb2025 04:32:06.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Feb2025 04:32:06.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Feb2025 04:32:06.297] [Server thread/INFO] [Framework/]: Unloading server configs...
+[25Feb2025 04:32:06.298] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[25Feb2025 04:32:06.299] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml

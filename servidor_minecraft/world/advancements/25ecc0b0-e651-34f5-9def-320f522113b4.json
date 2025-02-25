@@ -75,6 +75,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-01-31 04:07:08 +0000",
       "minecraft:deep_ocean": "2025-01-31 04:01:36 +0000",
+      "minecraft:cherry_grove": "2025-02-25 03:36:14 +0000",
       "minecraft:birch_forest": "2025-01-31 03:19:13 +0000",
       "minecraft:beach": "2025-02-09 12:53:26 +0000",
       "minecraft:dark_forest": "2025-01-27 22:56:34 +0000",
@@ -82,6 +83,7 @@
       "minecraft:lukewarm_ocean": "2025-02-14 13:00:48 +0000",
       "minecraft:stony_shore": "2025-01-31 03:42:35 +0000",
       "minecraft:grove": "2025-01-31 03:41:50 +0000",
+      "minecraft:cold_ocean": "2025-02-25 03:55:15 +0000",
       "minecraft:forest": "2025-01-31 03:21:30 +0000",
       "minecraft:lush_caves": "2025-01-28 21:33:47 +0000",
       "minecraft:jungle": "2025-01-31 03:53:36 +0000",
@@ -1426,13 +1428,16 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-02-25 04:29:22 +0000",
       "cooked_mutton": "2025-01-31 04:18:25 +0000",
+      "sweet_berries": "2025-02-25 03:18:53 +0000",
       "cooked_beef": "2025-01-31 03:10:37 +0000",
       "baked_potato": "2025-02-09 13:01:04 +0000",
       "apple": "2025-02-01 19:06:14 +0000",
       "potato": "2025-02-12 01:45:38 +0000",
       "bread": "2025-01-31 04:22:59 +0000",
       "cooked_rabbit": "2025-02-23 02:28:43 +0000",
+      "cooked_chicken": "2025-02-25 03:55:12 +0000",
       "carrot": "2025-01-31 03:21:17 +0000"
     },
     "done": false
@@ -1453,6 +1458,7 @@
     "criteria": {
       "cabbage": "2025-02-16 13:27:32 +0000",
       "onion": "2025-02-16 13:35:29 +0000",
+      "sweet_berries": "2025-02-25 02:13:39 +0000",
       "tomato": "2025-02-14 14:43:17 +0000",
       "sugar_cane": "2025-01-31 03:15:41 +0000",
       "potato": "2025-02-01 18:23:13 +0000",
@@ -2789,7 +2795,8 @@
       "minecraft:phantom": "2025-02-09 13:25:44 +0000",
       "minecraft:enderman": "2025-02-12 01:42:11 +0000",
       "minecraft:zombie": "2025-02-01 18:14:19 +0000",
-      "minecraft:drowned": "2025-02-09 13:23:25 +0000"
+      "minecraft:drowned": "2025-02-09 13:23:25 +0000",
+      "minecraft:zombie_villager": "2025-02-25 01:39:14 +0000"
     },
     "done": false
   },
@@ -6055,6 +6062,30 @@
     },
     "done": true
   },
+  "vinery:recipes/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-02-24 23:15:44 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/copper_silo": {
+    "criteria": {
+      "has_copper_ingot": "2025-02-24 23:21:09 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/birch_wine_rack_big": {
+    "criteria": {
+      "has_birch_planks": "2025-02-24 23:25:05 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/birch_wine_rack_small": {
+    "criteria": {
+      "has_birch_planks": "2025-02-24 23:25:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brick_wall": {
     "criteria": {
       "has_bricks": "2025-02-24 23:25:31 +0000"
@@ -6067,39 +6098,9 @@
     },
     "done": true
   },
-  "farm_and_charm:main/place_stove": {
-    "criteria": {
-      "stove": "2025-02-24 23:36:09 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/dark_range_hood": {
-    "criteria": {
-      "has_light_range_hood": "2025-02-24 23:36:59 +0000"
-    },
-    "done": true
-  },
-  "vinery:recipes/birch_wine_rack_big": {
-    "criteria": {
-      "has_birch_planks": "2025-02-24 23:25:05 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/dark_range_hood": {
-    "criteria": {
-      "has_range_hood": "2025-02-24 23:36:59 +0000"
-    },
-    "done": true
-  },
   "farm_and_charm:recipes/stove": {
     "criteria": {
       "has_bricks": "2025-02-24 23:25:31 +0000"
-    },
-    "done": true
-  },
-  "vinery:recipes/flower_pot": {
-    "criteria": {
-      "has_brick": "2025-02-24 23:15:44 +0000"
     },
     "done": true
   },
@@ -6109,45 +6110,15 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/dark_toaster": {
-    "criteria": {
-      "has_toaster": "2025-02-24 23:40:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2025-02-24 23:25:31 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/dark_toaster": {
-    "criteria": {
-      "has_light_toaster": "2025-02-24 23:40:27 +0000"
-    },
-    "done": true
-  },
-  "vinery:recipes/birch_wine_rack_small": {
-    "criteria": {
-      "has_birch_planks": "2025-02-24 23:25:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/brick_slab": {
     "criteria": {
       "has_bricks": "2025-02-24 23:25:31 +0000"
-    },
-    "done": true
-  },
-  "farm_and_charm:recipes/copper_silo": {
-    "criteria": {
-      "has_copper_ingot": "2025-02-24 23:21:09 +0000"
-    },
-    "done": true
-  },
-  "farm_and_charm:recipes/pitchfork": {
-    "criteria": {
-      "has_iron_nugget": "2025-02-24 23:31:11 +0000"
     },
     "done": true
   },
@@ -6172,6 +6143,198 @@
   "mcwbridges:recipes/balustrade_bricks_bridge": {
     "criteria": {
       "has_planks": "2025-02-24 23:25:31 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/pitchfork": {
+    "criteria": {
+      "has_iron_nugget": "2025-02-24 23:31:11 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:main/place_stove": {
+    "criteria": {
+      "stove": "2025-02-24 23:36:09 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_range_hood": {
+    "criteria": {
+      "has_light_range_hood": "2025-02-24 23:36:59 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/dark_range_hood": {
+    "criteria": {
+      "has_range_hood": "2025-02-24 23:36:59 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/dark_toaster": {
+    "criteria": {
+      "has_toaster": "2025-02-24 23:40:27 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_toaster": {
+    "criteria": {
+      "has_light_toaster": "2025-02-24 23:40:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-02-25 01:35:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-02-25 01:35:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-02-25 01:35:29 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:main/place_water_sprinkler": {
+    "criteria": {
+      "water_sprinkler": "2025-02-25 01:59:28 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/carrot_bag": {
+    "criteria": {
+      "has_carrot": "2025-02-25 02:17:39 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_hedge": {
+    "criteria": {
+      "has_cherry_leaves": "2025-02-25 03:20:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-02-25 03:28:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-02-25 03:28:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-02-25 03:34:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-02-25 03:34:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-02-25 03:36:57 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-02-25 03:36:57 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/fermentation_barrel": {
+    "criteria": {
+      "has_barrel": "2025-02-25 03:39:39 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/corn_bag": {
+    "criteria": {
+      "has_corn": "2025-02-25 03:48:17 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/wheat_seeds_from_grass": {
+    "criteria": {
+      "has_grass": "2025-02-25 03:48:38 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/potato_bag": {
+    "criteria": {
+      "has_potato": "2025-02-25 03:56:14 +0000"
+    },
+    "done": true
+  },
+  "ancient_golems:the_end_of_the_origin": {
+    "criteria": {
+      "the_end_of_the_origin_0": "2025-02-25 04:03:44 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/lettuce": {
+    "criteria": {
+      "has_tomato_seeds": "2025-02-25 04:19:48 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/wine_bottle": {
+    "criteria": {
+      "has_glass_bottle": "2025-02-25 04:05:47 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/beetroot_bag": {
+    "criteria": {
+      "has_beetroots": "2025-02-25 04:18:53 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/tomato_bag": {
+    "criteria": {
+      "has_tomato": "2025-02-25 04:19:49 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/strawberry": {
+    "criteria": {
+      "has_strawberry_seeds": "2025-02-25 04:22:20 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/wild_harvest": {
+    "criteria": {
+      "red_jungle_grape_seeds": "2025-02-25 04:24:20 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/corn": {
+    "criteria": {
+      "has_kernels": "2025-02-25 04:18:30 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/onion_bag": {
+    "criteria": {
+      "has_onion": "2025-02-25 04:19:17 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/strawberry_bag": {
+    "criteria": {
+      "has_strawberry": "2025-02-25 04:22:25 +0000"
     },
     "done": true
   },
