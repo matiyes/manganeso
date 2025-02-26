@@ -61,6 +61,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-02-25 22:10:17 +0000",
       "minecraft:cherry_grove": "2025-02-25 03:36:12 +0000",
       "minecraft:sunflower_plains": "2025-02-25 04:16:43 +0000",
       "minecraft:birch_forest": "2025-02-25 03:45:33 +0000",
@@ -78,6 +79,7 @@
       "minecraft:ocean": "2025-02-06 02:00:34 +0000",
       "minecraft:jungle": "2025-02-16 13:49:12 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-02-25 04:15:53 +0000",
+      "minecraft:flower_forest": "2025-02-25 22:11:02 +0000",
       "minecraft:old_growth_birch_forest": "2025-02-06 02:04:09 +0000",
       "minecraft:meadow": "2025-02-25 03:53:42 +0000",
       "minecraft:savanna": "2025-02-14 13:01:24 +0000",
@@ -2065,7 +2067,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:turtle": "2025-02-09 13:08:41 +0000"
+      "minecraft:turtle": "2025-02-09 13:08:41 +0000",
+      "minecraft:cow": "2025-02-25 22:37:08 +0000"
     },
     "done": false
   },
@@ -5816,15 +5819,27 @@
     },
     "done": true
   },
-  "mysticsbiomes:recipes/building_blocks/strawberry_wood": {
+  "vinery:main/wild_harvest": {
     "criteria": {
-      "has_planks": "2025-02-25 04:22:10 +0000"
+      "red_jungle_grape_seeds": "2025-02-25 04:06:56 +0000"
+    },
+    "done": true
+  },
+  "gnumus:plan_boar": {
+    "criteria": {
+      "plan_boar": "2025-02-25 04:11:45 +0000"
     },
     "done": true
   },
   "mysticsbiomes:mysticsbiomes/root": {
     "criteria": {
       "strawberry_fields": "2025-02-25 04:18:55 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/strawberry_wood": {
+    "criteria": {
+      "has_planks": "2025-02-25 04:22:10 +0000"
     },
     "done": true
   },
@@ -5840,21 +5855,219 @@
     },
     "done": true
   },
-  "gnumus:plan_boar": {
-    "criteria": {
-      "plan_boar": "2025-02-25 04:11:45 +0000"
-    },
-    "done": true
-  },
-  "vinery:main/wild_harvest": {
-    "criteria": {
-      "red_jungle_grape_seeds": "2025-02-25 04:06:56 +0000"
-    },
-    "done": true
-  },
   "farm_and_charm:recipes/corn": {
     "criteria": {
       "has_kernels": "2025-02-25 04:24:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2025-02-25 22:40:49 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-02-25 22:40:49 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/strawberry_slab": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2025-02-25 22:40:49 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/food/strawberry_cake": {
+    "criteria": {
+      "has_strawberry": "2025-02-25 22:06:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_button": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/tomato_bag": {
+    "criteria": {
+      "has_tomato": "2025-02-25 21:55:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/decorations/strawberry_sign": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/food/vanilla_cake": {
+    "criteria": {
+      "has_egg": "2025-02-25 22:40:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-02-25 22:57:14 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/food/chocolate_cake": {
+    "criteria": {
+      "has_egg": "2025-02-25 22:40:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/wine_box": {
+    "criteria": {
+      "has_glass": "2025-02-25 21:50:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_door": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/stone_stepping_stones": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/strawberry_stairs": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:recipes/strawberry_bag": {
+    "criteria": {
+      "has_strawberry": "2025-02-25 21:55:35 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/decorations/strawberry_fence": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:28:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:26:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2025-02-25 22:40:49 +0000"
     },
     "done": true
   },
