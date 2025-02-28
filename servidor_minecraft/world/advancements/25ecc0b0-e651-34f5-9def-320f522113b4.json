@@ -6470,9 +6470,9 @@
     },
     "done": true
   },
-  "mysticsbiomes:recipes/redstone/strawberry_trapdoor": {
+  "mysticsbiomes:mysticsbiomes/root": {
     "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
+      "strawberry_fields": "2025-02-25 22:13:13 +0000"
     },
     "done": true
   },
@@ -6482,15 +6482,207 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cherry_slab": {
+  "refurbished_furniture:recipes/decorations/yellow_kitchen_storage_cabinet_from_dyeing": {
     "criteria": {
-      "has_planks": "2025-02-25 22:47:29 +0000"
+      "has_dye": "2025-02-25 22:24:13 +0000"
     },
     "done": true
   },
-  "farm_and_charm:main/eat_tomato": {
+  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_drawer": {
     "criteria": {
-      "tomato": "2025-02-25 23:51:05 +0000"
+      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_kitchen_cabinetry_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_grill_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_cabinetry": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_cooler_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_basin": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_toilet": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_bath": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_trampoline_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_sofa_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_lamp_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_sink": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_stool_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_toilet": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/yellow_kitchen_drawer_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-25 22:24:13 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/cherry_bridge_pier": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-02-25 22:34:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-02-25 22:34:35 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/strawberry_slab": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_button": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/decorations/strawberry_sign": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_door": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/building_blocks/strawberry_stairs": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/redstone/strawberry_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "mysticsbiomes:recipes/decorations/strawberry_fence": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:34:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2025-02-25 22:47:29 +0000"
     },
     "done": true
   },
@@ -6503,24 +6695,6 @@
   "refurbished_furniture:recipes/misc/constructing/cherry_crate": {
     "criteria": {
       "has_cherry_planks": "2025-02-25 22:47:29 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/cherry_bridge_pier": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:35 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/redstone/strawberry_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_kitchen_storage_cabinet_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
     },
     "done": true
   },
@@ -6548,42 +6722,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_drawer": {
-    "criteria": {
-      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_candle": {
-    "criteria": {
-      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/building_blocks/strawberry_slab": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_kitchen_cabinetry_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_grill_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_cabinetry": {
-    "criteria": {
-      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/cherry_trapdoor": {
     "criteria": {
       "has_planks": "2025-02-25 22:47:29 +0000"
@@ -6596,72 +6734,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cherry_planks": {
-    "criteria": {
-      "has_log": "2025-02-25 22:34:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_yellow_wool": {
-    "criteria": {
-      "has_needed_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_cooler_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/redstone/strawberry_button": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_basin": {
-    "criteria": {
-      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_toilet": {
-    "criteria": {
-      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "vinery:main/juice_it_up": {
-    "criteria": {
-      "grapevine_pot": "2025-02-26 00:00:14 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_bath": {
-    "criteria": {
-      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:mysticsbiomes/root": {
-    "criteria": {
-      "strawberry_fields": "2025-02-25 22:13:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_wood": {
-    "criteria": {
-      "has_log": "2025-02-25 22:34:35 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_trampoline_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/rope_cherry_bridge": {
     "criteria": {
       "has_planks": "2025-02-25 22:47:29 +0000"
@@ -6671,18 +6743,6 @@
   "mcwbridges:recipes/cherry_rail_bridge": {
     "criteria": {
       "has_planks": "2025-02-25 22:47:29 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_sofa_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/decorations/strawberry_sign": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
     },
     "done": true
   },
@@ -6716,24 +6776,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/yellow_lamp_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/yellow_kitchen_sink": {
-    "criteria": {
-      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/redstone/strawberry_door": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/cherry_pressure_plate": {
     "criteria": {
       "has_planks": "2025-02-25 22:47:29 +0000"
@@ -6743,36 +6785,6 @@
   "refurbished_furniture:recipes/misc/constructing/cherry_cutting_board": {
     "criteria": {
       "has_cherry_planks": "2025-02-25 22:47:29 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/building_blocks/strawberry_stairs": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/yellow_stool_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "vinery:main/the_magic_of_the_barrel": {
-    "criteria": {
-      "fermentation_barrel": "2025-02-25 23:54:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_yellow_dye": "2025-02-25 22:24:13 +0000"
     },
     "done": true
   },
@@ -6788,30 +6800,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/yellow_toilet": {
-    "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/redstone/strawberry_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_yellow_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-02-25 22:24:13 +0000"
-    },
-    "done": true
-  },
-  "mysticsbiomes:recipes/decorations/strawberry_fence": {
-    "criteria": {
-      "has_planks": "2025-02-25 22:34:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/cherry_door": {
     "criteria": {
       "has_planks": "2025-02-25 22:47:29 +0000"
@@ -6824,9 +6812,33 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/yellow_kitchen_drawer_from_dyeing": {
+  "farm_and_charm:main/eat_tomato": {
     "criteria": {
-      "has_dye": "2025-02-25 22:24:13 +0000"
+      "tomato": "2025-02-25 23:51:05 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/the_magic_of_the_barrel": {
+    "criteria": {
+      "fermentation_barrel": "2025-02-25 23:54:35 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/juice_it_up": {
+    "criteria": {
+      "grapevine_pot": "2025-02-26 00:00:14 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/basket": {
+    "criteria": {
+      "has_wheat": "2025-02-26 13:09:44 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/straw_hat": {
+    "criteria": {
+      "has_wheat": "2025-02-26 13:09:44 +0000"
     },
     "done": true
   },
