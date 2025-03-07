@@ -1,0 +1,22 @@
+[07Mar2025 00:01:09.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 81.500000, 76.500000, 2745.500000]
+[07Mar2025 00:02:28.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 310.500000, 64.500000, 1504.500000]
+[07Mar2025 00:06:43.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 310.500000, 65.500000, 1504.500000]
+[07Mar2025 00:06:52.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 344.500000, 64.500000, 1463.500000]
+[07Mar2025 00:09:04.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 81.500000, 76.500000, 2745.500000]
+[07Mar2025 00:09:12.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2764ms or 55 ticks behind
+[07Mar2025 00:10:05.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [matiyes: Teleported matiyes to 310.500000, 65.500000, 1504.500000]
+[07Mar2025 00:11:15.211] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: matiyes lost connection: Disconnected
+[07Mar2025 00:11:15.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: matiyes left the game
+[07Mar2025 00:11:24.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Mar2025 00:11:24.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Mar2025 00:11:24.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Mar2025 00:11:24.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07Mar2025 00:11:24.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07Mar2025 00:11:24.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07Mar2025 00:11:25.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07Mar2025 00:11:25.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Mar2025 00:11:25.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Mar2025 00:11:25.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07Mar2025 00:11:25.106] [Server thread/INFO] [Framework/]: Unloading server configs...
+[07Mar2025 00:11:25.111] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[07Mar2025 00:11:25.113] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
